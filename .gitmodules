@@ -1,0 +1,12 @@
+[submodule "sqlite3"]
+	path = sqlite3
+	url = https://github.com/smindel/silverstripe-sqlite3.git
+[submodule "Uploadify"]
+	path = Uploadify
+	url = git://github.com/unclecheese/Uploadify.git
+[submodule "contactPage"]
+	path = contactPage
+	url = git@github.com:yelo-contrib/SilverStripe-ContactPage.git
+[submodule "urlField"]
+	path = urlField
+	url = git@github.com:yelo-contrib/SilverStripe-UrlField.git

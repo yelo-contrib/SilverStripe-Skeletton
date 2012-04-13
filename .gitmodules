@@ -10,3 +10,9 @@
 [submodule "urlField"]
 	path = urlField
 	url = git@github.com:yelo-contrib/SilverStripe-UrlField.git
+[submodule "cms"]
+	path = cms
+	url = http://github.com/silverstripe/silverstripe-cms
+[submodule "sapphire"]
+	path = sapphire
+	url = http://github.com/silverstripe/sapphire

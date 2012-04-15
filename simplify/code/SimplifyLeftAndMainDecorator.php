@@ -7,7 +7,7 @@
  * 
  * @package simplify
  */
-class SimplifyLeftAndMainDecorator extends LeftAndMainDecorator {
+class SimplifyLeftAndMainDecorator extends LeftAndMainExtension {
 	
 	private static $js_files = array();
 	private static $css_files = array();

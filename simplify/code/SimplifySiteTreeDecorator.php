@@ -1,6 +1,6 @@
 <?php
 
-class SimplifySiteTreeDecorator extends SiteTreeDecorator {
+class SimplifySiteTreeDecorator extends SiteTreeExtension {
 	function updateCMSFields(FieldSet &$fields) {
 		print_r($fields);
 	}

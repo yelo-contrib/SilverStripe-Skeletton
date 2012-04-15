@@ -6,7 +6,7 @@
  * 
  * @package simplify
  */
-class SimplifyGroupDecorator extends DataObjectDecorator {
+class SimplifyGroupDecorator extends DataExtension {
 
 	static $db = array(
 		"HTMLEditorLine1" => "Text",

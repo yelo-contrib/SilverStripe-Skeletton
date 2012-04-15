@@ -1,12 +1,12 @@
 <?php
 /**
- * SimplifyDataObjectDecorator
+ * SimplifyDataExtension
  * Decorates DataObject to remove fields from a Page
  * TODO: Might be better to make this more specific??
  * 
  * @package simplify
  */
-class SimplifyDataObjectDecorator extends SiteTreeDecorator {
+class SimplifyDataObjectDecorator extends SiteTreeExtension {
 
 	
 	function extraStatics() {
@@ -92,7 +92,7 @@ class SimplifyDataObjectDecorator extends SiteTreeDecorator {
 	public function markingClasses() {
 		$classes = "";
 		
-		//Copy of markingClasses from Hierarchy.php (which extends DataObjectDecorator)
+		//Copy of markingClasses from Hierarchy.php (which extends DataExtension)
 		if(!$this->owner->isExpanded()) {
 			$classes .= " unexpanded";
 		}

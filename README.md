@@ -9,6 +9,6 @@ Uses an sqlite database by default, edit '_config.php' to change that
 
 clone the repo, then:
 
-	* git submodule init
-	* git submodule update
+	git submodule init
+	git submodule update
 

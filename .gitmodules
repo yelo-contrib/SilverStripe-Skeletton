@@ -16,3 +16,6 @@
 [submodule "sapphire"]
 	path = sapphire
 	url = http://github.com/silverstripe/sapphire
+[submodule "themes/yelo/styles"]
+	path = themes/yelo/styles
+	url = git@github.com:yelo-contrib/Stylus-Skel.git
